@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #3300ff;
+    border-radius: 5px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.judul {
+    color: #ffffff;
+    max-width: 400px;
+    margin-bottom: 30 ;
+    padding: 30px;
+    border: 1px solid #761717;
+    border-radius: 5px;
+    background-image: url("../img/gambar1.1.jpg");
+    position: relative;
+
+}
+
+img {
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#hasil {
+    margin-top: 20px;
+}
+
+#hasil p {
+    margin-bottom: 5px;
+}
+
+.reset-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset-button:hover {
+    background-color: #999;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Persegi</title>
+    <link rel="stylesheet" href="css/persegi.css">
+</head>
+<body>
+    <div class="container">
+        <div class="judul">
+            <h1>Kalkulator Persegi</h1>
+        </div>
+        <div>
+            <img src="img/gambarpersegi.png" alt="persegi">
+        </div>
+        <form id="kalkulatorForm">
+            <div>
+                <label for="sisi">Panjang Sisi:</label>
+                <input type="number" id="sisi" required>
+            </div>
+            <button type="submit">Hitung</button>
+        </form>
+        <div id="hasil" style="display: none;">
+            <p>Luas : <span id="luas"></span></p>
+            <p>Keliling : <span id="keliling"></span></p>
+        </div>
+        <br><br>
+        <button id="resetButton" class="reset-button">Reset</button>
+    </div>
+    <script src="js/persegi.js"></script>
+</body>
+</html>
